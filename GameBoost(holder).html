@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GAMEBOOST</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =========================
+       БОКОВЫЕ БАННЕРЫ И КНОПКА ЯЗЫКА
+       ========================= -->
+  <button type="button" id="langToggle" class="lang-toggle">ҚАЗ</button>
+
+  <aside class="side-banner side-banner-left">
+    <img src="banners/танки и вартандер банер-Photoroom.png" alt="Игровой баннер слева">
+  </aside>
+
+  <aside class="side-banner side-banner-right">
+    <img src="banners/дотакс-Photoroom.png" alt="Игровой баннер справа">
+  </aside>
+
+  <div class="container">
+
+    <!-- =========================
+         ГЛАВНЫЙ БАННЕР
+         ========================= -->
+    <h2 class="title">Популярное и рекомендуемое</h2>
+
+    <section class="main-banner">
+      <div class="banner-left"></div>
+
+      <div class="banner-right">
+        <div class="game-name">Закажите буст аккаунта в играх</div>
+
+        <button type="button" class="game-tab active" data-target="game-wt">
+          <img class="small-img" src="https://warthunder.com/i/opengraph-wt.jpg" alt="War Thunder">
+        </button>
+
+        <button type="button" class="game-tab" data-target="game-wot">
+          <img class="small-img" src="https://worldoftanks.eu/static/6.13.1_5ba0d8/wotp_static/img/download_game/frontend/scss/img/sharing.jpg" alt="World of Tanks">
+        </button>
+
+        <button type="button" class="game-tab" data-target="game-cs2">
+          <img class="small-img" src="https://csmarket.gg/blog/wp-content/uploads/2024/07/counter-strike-2.webp" alt="CS2">
+        </button>
+
+        <button type="button" class="game-tab" data-target="game-dota">
+          <img class="small-img" src="https://cdn.steamstatic.com/apps/dota2/images/dota2_social.jpg" alt="Dota 2">
+        </button>
+      </div>
+    </section>
+
+    <div class="promo" id="promoBuy">Покупка</div>
+
+    <!-- =========================
+         КАРТОЧКИ БУСТЕРОВ
+         ========================= -->
+    <h2 class="title">Наши лучшие бустеры</h2>
+
+    <section class="cards">
+      <article class="booster-card">
+        <div class="booster-img">
+          <img src="https://ggscore.com/media/logo/p130506.png?851" alt="Лена">
+          <div class="status">Online</div>
+        </div>
+
+        <div class="booster-name">Лена Головач</div>
+        <div class="booster-info">Рейтинг: ★★★☆☆</div>
+
+        <div class="hover-panel">
+          <img class="preview" src="https://media1.tenor.com/m/sW4Q6T7SSLsAAAAC/lena-golovach-golovach.gif" alt="preview">
+          <div class="hover-text">
+            <p><b>Игра:</b> DOTA2</p>
+            <p><b>Ранг:</b> Immortal</p>
+            <p><b>Лучший момент:</b> 2 МИСА С МЭМКАБЭ 🔥</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="booster-card">
+        <div class="booster-img">
+          <img src="https://game-tournaments.com/media/logo/p68172.png?807" alt="AmarTheF">
+          <div class="status">Online</div>
+        </div>
+
+        <div class="booster-name">AmarTheF</div>
+        <div class="booster-info">Рейтинг: ★★★★★★</div>
+
+        <div class="hover-panel">
+          <img class="preview" src="https://media1.tenor.com/m/f2wUyPsuIyMAAAAd/dota2-ammar.gif" alt="preview">
+          <div class="hover-text">
+            <p><b>Лучший момент:</b></p>
+            <p>3 двойных сырных лавашей за катку</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="booster-card">
+        <div class="booster-img">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Gabe_newell.jpg" alt="Габен">
+          <div class="status offline">Offline</div>
+        </div>
+
+        <div class="booster-name">Габен</div>
+        <div class="booster-info">Рейтинг: ★☆☆☆☆</div>
+
+        <div class="hover-panel">
+          <img class="preview" src="https://media1.tenor.com/m/ZfkDwS_EmNIAAAAC/hello-vro-hello-gabe.gif" alt="preview">
+          <div class="hover-text">
+            <p><b>Лучший момент:</b></p>
+            <p>Самая красивая мама</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- =========================
+         УСЛУГИ ПО ИГРАМ
+         ========================= -->
+    <h2 class="title">Услуги по играм</h2>
+
+    <section id="game-wt" class="game-section">
+      <div class="section-head">
+        <h2>War Thunder</h2>
+        <p>Выберите услугу и оформите заказ</p>
+      </div>
+
+      <div class="services">
+        <div class="service-card">
+          <div class="service-title">Прокачка техники</div>
+          <div class="service-desc">Быстрый прогресс по выбранной ветке</div>
+          <div class="service-price">от 299 ₽</div>
+          <button type="button" class="service-btn" data-game="War Thunder" data-service="Прокачка техники">Заказать</button>
+        </div>
+
+        <div class="service-card">
+          <div class="service-title">Фарм серебра</div>
+          <div class="service-desc">Выполнение задач и режимов фарма</div>
+          <div class="service-price">от 199 ₽</div>
+          <button type="button" class="service-btn" data-game="War Thunder" data-service="Фарм серебра">Заказать</button>
+        </div>
+
+        <div class="service-card">
+          <div class="service-title">Боевой пропуск</div>
+          <div class="service-desc">Закрытие уровней и наград</div>
+          <div class="service-price">от 99 ₽</div>
+          <button type="button" class="service-btn" data-game="War Thunder" data-service="Боевой пропуск">Заказать</button>
+        </div>
+      </div>
+
+      <div class="game-extra">
+        <div class="game-extra-text">
+          <h3>War Thunder</h3>
+          <p>Реалистичные сражения на земле, в воздухе и на море. Прокачка техники по историческим веткам.</p>
+        </div>
+
+        <div class="game-extra-media">
+          <video class="game-demo" autoplay muted loop playsinline controls>
+            <source src="videos/WTPromo.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section id="game-wot" class="game-section">
+      <div class="section-head">
+        <h2>World of Tanks</h2>
+        <p>Выберите услугу и оформите заказ</p>
+      </div>
+
+      <div class="services">
+        <div class="service-card">
+          <div class="service-title">Прокачка ветки</div>
+          <div class="service-desc">От уровня к уровню по вашей технике</div>
+          <div class="service-price">от 299 ₽</div>
+          <button type="button" class="service-btn" data-game="World of Tanks" data-service="Прокачка ветки">Заказать</button>
+        </div>
+
+        <div class="service-card">
+          <div class="service-title">Поднятие статистики</div>
+          <div class="service-desc">Сессионный буст показателей</div>
+          <div class="service-price">от 199 ₽</div>
+          <button type="button" class="service-btn" data-game="World of Tanks" data-service="Поднятие статистики">Заказать</button>
+        </div>
+
+        <div class="service-card">
+          <div class="service-title">Фарм кредитов</div>
+          <div class="service-desc">Накопление ресурсов на технику</div>
+          <div class="service-price">от 299 ₽</div>
+          <button type="button" class="service-btn" data-game="World of Tanks" data-service="Фарм кредитов">Заказать</button>
+        </div>
+      </div>
+
+      <div class="game-extra">
+        <div class="game-extra-text">
+          <h3>World of Tanks</h3>
+          <p>Командные танковые бои 15×15. Позиционка, броня, тактика и грамотная прокачка веток.</p>
+        </div>
+
+        <div class="game-extra-media">
+          <video class="game-demo" autoplay muted loop playsinline controls>
+            <source src="videos/WOTPromo.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section id="game-cs2" class="game-section">
+      <div class="section-head">
+        <h2>CS2</h2>
+        <p>Выберите услугу и оформите заказ</p>
+      </div>
+
+      <div class="services">
+        <div class="service-card">
+          <div class="service-title">Поднятие Premier</div>
+          <div class="service-desc">Рост рейтинга по целевому диапазону</div>
+          <div class="service-price">от 499 ₽</div>
+          <button type="button" class="service-btn" data-game="CS2" data-service="Поднятие Premier">Заказать</button>
+        </div>
+
+        <div class="service-card">
+          <div class="service-title">Поднятие звания</div>
+          <div class="service-desc">Ап до нужного звания</div>
+          <div class="service-price">от 199 ₽</div>
+          <button type="button" class="service-btn" data-game="CS2" data-service="Поднятие звания">Заказать</button>
+        </div>
+
+        <div class="service-card">
+          <div class="service-title">Калибровка</div>
+          <div class="service-desc">Первые матчи рейтинга</div>
+          <div class="service-price">от 399 ₽</div>
+          <button type="button" class="service-btn" data-game="CS2" data-service="Калибровка">Заказать</button>
+        </div>
+      </div>
+
+      <div class="game-extra">
+        <div class="game-extra-text">
+          <h3>CS2</h3>
+          <p>Соревновательный шутер: точность, экономика и командная игра. Premier требует стабильности.</p>
+        </div>
+
+        <div class="game-extra-media">
+          <video class="game-demo" autoplay muted loop playsinline controls>
+            <source src="videos/Cs2Promo.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section id="game-dota" class="game-section">
+      <div class="section-head">
+        <h2>Dota 2</h2>
+        <p>Выберите услугу и оформите заказ</p>
+      </div>
+
+      <div class="services">
+        <div class="service-card">
+          <div class="service-title">Поднятие MMR</div>
+          <div class="service-desc">Ап рейтинга на выбранное количество</div>
+          <div class="service-price">от 199 ₽</div>
+          <button type="button" class="service-btn" data-game="Dota 2" data-service="Поднятие MMR">Заказать</button>
+        </div>
+
+        <div class="service-card">
+          <div class="service-title">Поднятие ранга</div>
+          <div class="service-desc">Ап до нужной медали</div>
+          <div class="service-price">от 399 ₽</div>
+          <button type="button" class="service-btn" data-game="Dota 2" data-service="Поднятие ранга">Заказать</button>
+        </div>
+
+        <div class="service-card">
+          <div class="service-title">Герой-пул тренинг</div>
+          <div class="service-desc">Сессии игр под ваш пул героев</div>
+          <div class="service-price">от 499 ₽</div>
+          <button type="button" class="service-btn" data-game="Dota 2" data-service="Герой-пул тренинг">Заказать</button>
+        </div>
+      </div>
+
+      <div class="game-extra">
+        <div class="game-extra-text">
+          <h3>Dota 2</h3>
+          <p>MOBA с глубокой стратегией. Ап рейтинга — это пики, тайминги, макро и понимание карты.</p>
+        </div>
+
+        <div class="game-extra-media">
+          <video class="game-demo" autoplay muted loop playsinline controls>
+            <source src="videos/DOTA2Promo.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+          </video>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- =========================
+       БОЛЬШАЯ ВИТРИНА БУСТЕРОВ
+       ========================= -->
+  <div id="orderOverlay" class="order-overlay hidden">
+    <div class="order-card">
+      <div class="order-top">
+        <div class="order-left">
+          <div class="order-title">Услуга</div>
+          <div class="order-service" id="bigService">—</div>
+          <div class="order-game" id="bigGame">—</div>
+        </div>
+
+        <div class="order-right">
+          <img id="bigGameImg" class="order-game-img" src="" alt="Game image">
+        </div>
+
+        <button type="button" id="orderClose" class="order-close">✕</button>
+      </div>
+
+      <div class="order-mid">
+        <div class="order-table-head">
+          <div>Бустер</div>
+          <div class="price-col">Цена</div>
+        </div>
+        <div id="boosterList" class="order-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================
+       МОДАЛКА ОФОРМЛЕНИЯ ЗАКАЗА
+       ========================= -->
+  <div id="modalOverlay" class="modal-overlay hidden">
+    <div class="modal">
+      <div class="modal-top">
+        <div class="modal-title">Оформление заказа</div>
+        <button type="button" id="modalClose" class="modal-close">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <p><b>Игра:</b> <span id="orderGame">—</span></p>
+        <p><b>Услуга:</b> <span id="orderService">—</span></p>
+        <p><b>Бустер:</b> <span id="orderBooster">—</span></p>
+        <p><b>Цена:</b> <span id="orderPrice">—</span></p>
+
+        <label class="modal-label">Ваш никнейм:</label>
+        <input id="orderNick" class="modal-input" placeholder="nickname">
+
+        <label class="modal-label">Комментарий:</label>
+        <textarea id="orderNote" class="modal-textarea" placeholder="Что важно учесть?"></textarea>
+
+        <button type="button" id="copyOrder" class="modal-btn">Отправить заявку</button>
+        <div id="copyHint" class="copy-hint hidden">Отправленно ✅</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
