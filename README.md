@@ -1,2 +1,0 @@
-# GAMEBOOSTWEB
-Public Info Project
